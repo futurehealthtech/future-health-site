@@ -11,11 +11,11 @@ export default function RootLayout({ children }) {
       <body className="min-h-screen bg-gray-50 text-gray-900 antialiased">
         <header className="border-b bg-white">
           <nav className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
-            <a href="/" className="font-semibold text-lg">Future Health</a>
+            <link href="/" className="font-semibold text-lg">Future Health</link>
             <div className="flex gap-4 text-sm">
-              <a href="/apply" className="hover:text-indigo-600">Apply</a>
-              <a href="/members" className="hover:text-indigo-600">Members</a>
-              <a href="/admin" className="hover:text-indigo-600">Admin</a>
+              <link href="/apply" className="hover:text-indigo-600">Apply</link>
+              <link href="/members" className="hover:text-indigo-600">Members</link>
+              <link href="/admin" className="hover:text-indigo-600">Admin</link>
             </div>
           </nav>
         </header>
