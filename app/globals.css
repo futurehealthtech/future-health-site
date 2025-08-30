@@ -1,5 +1,8 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+/* your existing variables/theme can stay below */
 :root {
   --background: #ffffff;
   --foreground: #171717;
